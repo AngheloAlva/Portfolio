@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import { raleway } from './lib/fonts'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +14,7 @@ export default function RootLayout ({
 }>): React.ReactElement {
   return (
     <html lang="en">
-      <body className={`${inter.className} relative text-white`}>
+      <body className={`${raleway.className} relative text-white`}>
         <div className='absolute inset-0 -z-10 h-full w-full bg-zinc-900 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:30px_30px]'>
           <div className='absolute left-0 right-0 top-0 -z-10 m-auto h-[20rem] w-[20rem] md:h-[30rem] md:w-[30rem] rounded-full bg-[#A1357D] opacity-20 blur-[100px]' />
         </div>
