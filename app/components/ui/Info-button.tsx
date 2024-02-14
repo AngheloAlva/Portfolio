@@ -1,4 +1,4 @@
-export default function InfoButtons ({
+export default function InfoButton ({
   icon, text, href
 }: InfoButtonsProps): React.ReactElement {
   return (
