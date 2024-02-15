@@ -6,11 +6,11 @@ import Image from 'next/image'
 
 import SkillsCarousel from './components/page/Skills-carousel'
 import Presentation from './components/page/Presentation'
-import ProjectCard from './components/ui/Project-card'
 import { FaBrain, FaCode, FaUser } from 'react-icons/fa6'
+import EmailButtons from './components/ui/Email-buttons'
+import ProjectCard from './components/ui/Project-card'
 import Navbar from './components/navbar/Navbar'
 import Title from './components/page/Title'
-import EmailButtons from './components/ui/Email-buttons'
 
 export default function Home (): React.ReactElement {
   const year = new Date().getFullYear()
@@ -20,8 +20,8 @@ export default function Home (): React.ReactElement {
       <Navbar/>
 
       <main className="flex flex-col items-center px-5 sm:px-14 md:px-24">
-        <section id='home' className="flex flex-col items-center justify-end md:justify-center max-w-5xl min-h-screen md:flex-row gap-10 md:gap-0">
-          <div className='max-w-lg'>
+        <section id='home' className="flex flex-col items-center justify-end md:justify-center max-w-5xl min-h-screen md:flex-row gap-10 md:gap-0 pt-32">
+          <div className='max-w-[90vw] sm:max-w-lg'>
             <Title />
             <Presentation />
           </div>
@@ -69,7 +69,7 @@ export default function Home (): React.ReactElement {
             </p>
           </div>
 
-          <div className='mt-10 flex items-center flex-col gap-4'>
+          <div className='mt-10 flex items-center flex-col gap-4 max-w-[90vw]'>
             <p className='text-xl mt-5'>
               If you want to contact me, you can send me an email to:
             </p>

@@ -66,7 +66,7 @@ export default function Navbar (): React.ReactElement {
   }, [isInTransition, items])
 
   return (
-    <nav className="border border-white/10 py-1 rounded-full mb-12 fixed px-7 overflow-hidden top-7 md:top-10 z-50 backdrop-blur-xl left-1/2 transform -translate-x-1/2">
+    <nav className="border border-white/10 py-1 rounded-full mb-12 fixed px-5 sm:px-8 overflow-hidden top-7 md:top-10 z-50 backdrop-blur-xl left-1/2 transform -translate-x-1/2">
       <ul className="flex gap-2 relative justify-start w-full z-[100] rounded-lg">
         {items.map((item) => {
           const isActive = selected === item.id

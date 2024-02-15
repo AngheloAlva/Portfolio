@@ -15,7 +15,7 @@ export default function EmailButtons (): React.ReactElement {
 
   return (
     <div className='flex items-center relative'>
-      <div className="relative cursor-text inline-flex items-center justify-start px-6 h-10 overflow-hidden font-bold transition-all rounded-full rounded-r-none group">
+      <div className="relative cursor-text inline-flex items-center justify-start px-4 h-10 overflow-hidden font-bold transition-all rounded-full rounded-r-none group">
         <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
         <span className="absolute inset-0 border border-white/10 rounded-full rounded-r-none"></span>
         <span className="flex items-center gap-2 relative w-full text-left text-white transition-colors duration-200 ease-in-out">
@@ -23,10 +23,10 @@ export default function EmailButtons (): React.ReactElement {
         </span>
       </div>
 
-      <button onClick={copyToClipboard} className='h-10 px-6 border-white/10 border flex items-center justify-center hover:scale-105 hover:text-primary hover:bg-white transition-all'>
+      <button onClick={copyToClipboard} className='h-10 px-3 border-white/10 border flex items-center justify-center hover:scale-105 hover:text-primary hover:bg-white transition-all'>
         <FaCopy />
       </button>
-      <a href="mailto:anghelo.alva.q@gmail.com" className='h-10 px-6 border-white/10 border rounded-r-full flex items-center justify-center  hover:scale-105 hover:text-primary hover:bg-white transition-all'>
+      <a href="mailto:anghelo.alva.q@gmail.com" className='h-10 px-3 border-white/10 border rounded-r-full flex items-center justify-center  hover:scale-105 hover:text-primary hover:bg-white transition-all'>
         <FaEnvelope />
       </a>
       {copySuccess &&
