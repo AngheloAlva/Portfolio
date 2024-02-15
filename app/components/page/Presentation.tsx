@@ -6,11 +6,11 @@ export default function Presentation (): React.ReactElement {
   return (
     <>
       <p className="text-2xl font-bold mt-5 text-balance">
-        <span className="bg-gradient-to-r from-pink via-secondary to-primary text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-pink via-secondary-100 to-primary-100 text-transparent bg-clip-text">
           Web Developer
         </span>
         , motivated by the challenges and the
-        <span className="bg-gradient-to-r from-pink via-secondary to-primary text-transparent bg-clip-text mx-1">
+        <span className="bg-gradient-to-r from-pink via-secondary-100 to-primary-100 text-transparent bg-clip-text mx-1">
           constant learning
         </span>
         that the web world offers.
