@@ -7,7 +7,8 @@ export default function Navbar (): React.ReactElement {
   const items = [
     { id: 'home', label: 'Home' },
     { id: 'skills', label: 'Skills' },
-    { id: 'projects', label: 'Projects' }
+    { id: 'projects', label: 'Projects' },
+    { id: 'aboutMe', label: 'About Me' }
   ]
 
   const [selected, setSelected] = useState<string>('home')
@@ -83,7 +84,7 @@ export default function Navbar (): React.ReactElement {
                 setSelected(lastSelected)
               }}
               data-active={isActive}
-              className="cursor-pointer px-4 py-2 rounded-lg lg:text-base relative no-underline duration-300 ease-in font-bold tracking-wider select-none"
+              className="cursor-pointer px-2 sm:px-4 text-nowrap py-3 rounded-lg lg:text-base relative no-underline duration-300 ease-in font-bold tracking-wider select-none"
             >
               <span>{item.label}</span>
 
