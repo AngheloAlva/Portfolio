@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useCallback, useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
@@ -10,15 +11,20 @@ export default function Navbar (): React.ReactElement {
   ]
 
   const [selected, setSelected] = useState<string>('home')
+  const [lastSelected, setLastSelected] = useState<string>('home')
   const [isInTransition, setIsInTransition] = useState<boolean>(false)
 
   const handleNavClick = useCallback((sectionId: string): void => {
     setSelected(sectionId)
+    setLastSelected(sectionId)
     const section = document.getElementById(sectionId)
 
     if (section != null) {
       setIsInTransition(true)
       section.scrollIntoView({ behavior: 'smooth' })
+      setTimeout(() => {
+        setIsInTransition(false)
+      }, 500)
     }
   }, [setSelected])
 
@@ -35,8 +41,9 @@ export default function Navbar (): React.ReactElement {
         const section = document.getElementById(item.id)
         if (section != null) {
           const rect = section.getBoundingClientRect()
-          if (rect.top <= window.innerHeight / 10 && rect.bottom > window.innerHeight / 10) {
+          if (rect.top <= window.innerHeight / 7 && rect.bottom > window.innerHeight / 7) {
             setSelected(item.id)
+            setLastSelected(item.id)
           }
           if (rect.bottom > maxSectionPosition) {
             maxSectionPosition = rect.bottom
@@ -55,7 +62,7 @@ export default function Navbar (): React.ReactElement {
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [items])
+  }, [isInTransition, items])
 
   return (
     <nav className="border border-white/10 py-1 rounded-full mb-12 fixed px-7 overflow-hidden top-7 md:top-10 z-50 backdrop-blur-xl left-1/2 transform -translate-x-1/2">
@@ -73,7 +80,7 @@ export default function Navbar (): React.ReactElement {
                 setSelected(item.id)
               }}
               onMouseLeave={(): void => {
-                setSelected(selected)
+                setSelected(lastSelected)
               }}
               data-active={isActive}
               className="cursor-pointer px-4 py-2 rounded-lg lg:text-base relative no-underline duration-300 ease-in font-bold tracking-wider select-none"
