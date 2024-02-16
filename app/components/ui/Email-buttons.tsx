@@ -4,7 +4,9 @@
 import { FaCopy, FaEnvelope } from 'react-icons/fa'
 import { useState } from 'react'
 
-export default function EmailButtons (): React.ReactElement {
+export default function EmailButtons (
+  { copiedText }: { copiedText: string }
+): React.ReactElement {
   const [copySuccess, setCopySuccess] = useState<boolean>(false)
 
   const copyToClipboard = async (): Promise<void> => {
@@ -30,8 +32,8 @@ export default function EmailButtons (): React.ReactElement {
         <FaEnvelope />
       </a>
       {copySuccess &&
-        <div className="absolute bottom-12 left-[65%] transform-translateX-[-50%] py-1 px-3 text-sm font-medium rounded-full bg-white text-black rounded-5">
-          Copied!
+        <div className="absolute bottom-12 left-[69%] transform-translateX-[-50%] py-1 px-3 text-sm font-medium rounded-full bg-white text-black rounded-5">
+          {copiedText}
         </div>
       }
     </div>

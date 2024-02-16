@@ -1,14 +1,17 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+'use client'
+
 import { useCallback, useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
-export default function Navbar (): React.ReactElement {
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+export default function Navbar (
+  { locale }: { locale: string }
+): React.ReactElement {
   const items = [
-    { id: 'home', label: 'Home' },
-    { id: 'skills', label: 'Skills' },
-    { id: 'projects', label: 'Projects' },
-    { id: 'aboutMe', label: 'About Me' }
+    { id: 'home', label: locale === 'en' ? 'Home' : 'Inicio' },
+    { id: 'skills', label: locale === 'en' ? 'Skills' : 'Habilidades' },
+    { id: 'projects', label: locale === 'en' ? 'Projects' : 'Proyectos' },
+    { id: 'aboutMe', label: locale === 'en' ? 'About me' : 'Sobre mí' }
   ]
 
   const [selected, setSelected] = useState<string>('home')
@@ -25,7 +28,7 @@ export default function Navbar (): React.ReactElement {
       section.scrollIntoView({ behavior: 'smooth' })
       setTimeout(() => {
         setIsInTransition(false)
-      }, 500)
+      }, 700)
     }
   }, [setSelected])
 
@@ -66,8 +69,8 @@ export default function Navbar (): React.ReactElement {
   }, [isInTransition, items])
 
   return (
-    <nav className="border border-white/10 py-1 rounded-full mb-12 fixed px-5 sm:px-8 overflow-hidden top-7 md:top-10 z-50 backdrop-blur-xl left-1/2 transform -translate-x-1/2">
-      <ul className="flex gap-2 relative justify-start w-full z-[100] rounded-lg">
+    <nav className="border border-white/10 py-1 rounded-lg sm:rounded-full mb-12 fixed px-2 sm:px-8 overflow-hidden top-7 md:top-10 z-50 backdrop-blur-xl left-1/2 transform -translate-x-1/2">
+      <ul className="flex sm:gap-2 relative justify-start w-full z-[100] rounded-lg">
         {items.map((item) => {
           const isActive = selected === item.id
 
@@ -84,7 +87,7 @@ export default function Navbar (): React.ReactElement {
                 setSelected(lastSelected)
               }}
               data-active={isActive}
-              className="cursor-pointer px-2 sm:px-4 text-nowrap py-3 rounded-lg lg:text-base relative no-underline duration-300 ease-in font-bold tracking-wider select-none"
+              className="text-sm sm:text-base cursor-pointer px-2 sm:px-4 text-nowrap py-3 rounded-lg lg:text-base relative no-underline duration-300 ease-in font-bold tracking-wider select-none"
             >
               <span>{item.label}</span>
 

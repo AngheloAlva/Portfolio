@@ -1,12 +1,15 @@
-import type { projects } from '@/app/lib/const/projects'
+'use client'
+
 import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import { useRef } from 'react'
 
 import { FaGithub, FaLink } from 'react-icons/fa6'
 
+import type { projects } from '@/app/lib/const/projects'
+
 export default function ProjectCard ({
-  project, index
+  project, index, locale
 }: ProjectCardProps): React.ReactElement {
   const ref = useRef(null)
   const isInView = useInView(ref)
@@ -25,8 +28,8 @@ export default function ProjectCard ({
         ${isEven ? 'md:flex-row' : 'md:flex-row-reverse'}
       `}
     >
-      <div className={`${isEven ? 'md:text-end' : ''}`}>
-        <div className={`w-full flex items-center justify-between ${isEven ? 'md:flex-row-reverse' : ''}`}>
+      <div>
+        <div className='w-full flex items-center justify-between'>
           <h3 className="text-3xl font-bold text-start text-pink">
             {project.title}
           </h3>
@@ -41,7 +44,12 @@ export default function ProjectCard ({
           </div>
         </div>
 
-        <p className="font-medium mt-3">{project.description}</p>
+        <p className="font-medium mt-3">
+          {locale === 'en'
+            ? project.description
+            : project.descriptionEs
+          }
+        </p>
 
         <ul className="flex gap-2 flex-wrap mt-7 mb-2 items-center justify-center">
           {project.techs.map((tech, index) => (
@@ -65,5 +73,6 @@ export default function ProjectCard ({
 
 interface ProjectCardProps {
   project: typeof projects[0]
+  locale: string
   index: number
 }

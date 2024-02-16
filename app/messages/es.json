@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "Home",
+    "aboutMe": "Acerca de mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades"
+  },
+  "presentation": {
+    "title": "Anghelo Alva",
+    "description": {
+      "firstColor": "Desarrollador web",
+      "second": ", motivado por los retos y el",
+      "thirdColor": "aprendizaje constante",
+      "fourth": "que ofrece el mundo web."
+    },
+    "buttons": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "resume": "Resumen",
+      "mailTooltip": "Copiado!"
+    }
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects": {
+    "title": "Proyectos"
+  },
+  "aboutMe": {
+    "title": "Sobre mí",
+    "first": "Hola, soy Anghelo Alva, estudiante de Ing. Informatica y en mi tiempo libre desarrollo aplicaciones web.",
+    "second": "Soy un apasionado de la web, me gusta crear aplicaciones web que ayuden a la gente a resolver sus problemas y hacer su vida más fácil, siempre diseñando la mejor experiencia de usuario y el mejor rendimiento que pueda.",
+    "third": "No tengo experiencia en un trabajo real, pero creo que estoy preparado para empezar a trabajar en una empresa, tengo las habilidades y los conocimientos para empezar a trabajar en una empresa y estoy preparado para aprender más y mejorar mis habilidades.",
+    "contact": "Si quieres ponerte en contacto conmigo, puedes enviarme un correo electrónico a:",
+    "mailTooltip": "Copiado!"
+  }
+}

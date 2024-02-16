@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "home": "Home",
+    "aboutMe": "About Me",
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "presentation": {
+    "title": "Anghelo Alva",
+    "description": {
+      "firstColor": "Web Developer",
+      "second": ", motivated by the challenges and the",
+      "thirdColor": "constant learning",
+      "fourth": "that the web world offers."
+    },
+    "buttons": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "resume": "Resume",
+      "mailTooltip": "Copied!"
+    }
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "first": "Hi, I'm Anghelo Alva, student of Ing. Informaticts and in my free time I develop web applications.",
+    "second": "I'm a passionate about the web, I like to create web applications that help people to solve their problems and make their lives easier, always designing the best user experience and the best performance i can.",
+    "third": "I don't have experience in a real job, but I feel that I'm ready to start working in a company, I have the skills and the knowledge to start working in a company and I'm ready to learn more and improve my skills.",
+    "contact": "If you want to contact me, you can send me an email to:",
+    "mailTooltip": "Copied!"
+  }
+}
