@@ -1,8 +1,10 @@
 export const projects = [
   {
     title: 'Pet Shop',
-    description: 'A pet shop website created with Next.js and TailwindCSS. It has a Clerk integration for authentication and a Stripe integration for payments.',
-    descriptionEs: 'Un sitio web de tienda de mascotas creado con Next.js y TailwindCSS. Tiene una integración con Clerk para la autenticación y una integración con Stripe para los pagos.',
+    description: 'Ecommerce for food, accessories, medicine, etc. of common and exotic pets.',
+    descriptionEs: 'Ecommerce para comida, acessorios, medicina, etc. de mascotas comunes y exoticas.',
+    challenges: ['The management of the global state linked to the server and database.', 'The integration of Clerk for authentication added to the creation and management of users with the server.'],
+    challengesEs: ['El manejo del estado global enlazado el servidor y base de datos.', 'La integracion de Clerk para la autenticacion sumado a la creacion y manejo de de usuarios con el servidor.'],
     image: '/projects/petshop.png',
     link: 'not found',
     code: 'https://github.com/AngheloAlva/Pet-shop',
@@ -10,28 +12,34 @@ export const projects = [
   },
   {
     title: 'Pet Shop Server',
-    description: 'A server created with Node.js and Express for the pet shop website. It has a PostgreSQL database and uses Prisma as ORM. It also has a Stripe integration for payments.',
-    descriptionEs: 'Un servidor creado con Node.js y Express para el sitio web de la tienda de mascotas.Tiene una base de datos PostgreSQL y utiliza Prisma como ORM. También tiene una integración con Stripe para los pagos.',
+    description: 'Server created specifically for pet ecommerce. This handles all the routes and the database.',
+    descriptionEs: 'Servidor creado especificamente para el ecommerce de mascotas. Este maneja todas las rutas y la base de datos.',
+    challenges: ['Learn to use Prisma as an ORM.', 'Stripe integration for payments.', 'Linked user management with Clerk and the server.'],
+    challengesEs: ['Aprender a usar Prisma como ORM.', 'La integracion de Stripe para los pagos.', 'El manejo enlazado del usuario con Clerk y el servidor.'],
     image: '/projects/petshop-server.png',
-    link: 'https://petshop-psi.vercel.app/',
+    link: 'not found',
     code: 'https://github.com/AngheloAlva/Pet-shop-server',
     techs: ['Node.js', 'Express', 'TypeScript', 'PostgresSQL', 'Stripe']
   },
   {
     title: 'ScholaNet',
-    description: 'A school system created with Next.js and TailwindCSS. It has a server created with Node.js and Express. It has a MongoDB database and uses Mongoose as ORM.',
-    descriptionEs: 'Un sistema escolar creado con Next.js y TailwindCSS. Tiene un servidor creado con Node.js y Express. Tiene una base de datos MongoDB y usa Mongoose como ORM.',
+    description: 'Complete school system, it has an Intranet for communication between teachers and students, a note, homework and attendance system, and an administration system for managers.',
+    descriptionEs: 'Sistema escolar completeo, cuenta con un Intranet para la comunicacion entre los maestros y los estudiantes, un sistema de notas, tareas y asistencia, y un sistema de administracion para los directivos.',
+    challenges: ['Correctly create note, task and attendance systems.', 'Creation of the Intranet.', 'Management of user authentication and authorization.'],
+    challengesEs: ['Crear correctamente los sistemas de notas, tareas y asistencias.', 'La creacion del Intranet.', 'El manejo de la autenticacion y autorizacion de los usuarios.'],
     image: '/projects/scholanet.png',
-    link: 'https://petshop-psi.vercel.app/',
+    link: 'not found',
     code: 'https://github.com/AngheloAlva/ScholaNet',
     techs: ['Next.js', 'TailwindCSS', 'TypeScript']
   },
   {
     title: 'ScholaNet Server',
-    description: 'A server created with Node.js and Express for the school system. It has a MongoDB database and uses Mongoose as ORM.',
-    descriptionEs: 'Un servidor creado con Node.js y Express para el sistema escolar. Tiene una base de datos MongoDB y usa Mongoose como ORM.',
+    description: 'Server created specifically for the school system. This handles all the routes and the database.',
+    descriptionEs: 'Servidor creado especificamente para el sistema escolar. Este maneja todas las rutas y la base de datos.',
+    challenges: ['Implement an authentication and authorization system for users.', 'The creation of note, task and attendance systems.'],
+    challengesEs: ['Implementar un sistema de autenticacion y autorizacion para los usuarios.', 'La creacion de los sistemas de notas, tareas y asistencias.'],
     image: '/projects/scholanet-server.png',
-    link: 'https://petshop-psi.vercel.app/',
+    link: 'not found',
     code: 'https://github.com/AngheloAlva/ScholaNet-Express',
     techs: ['Node.js', 'Express', 'TypeScript', 'MongoDB']
   }

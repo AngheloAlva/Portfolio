@@ -9,9 +9,11 @@
     "title": "Anghelo Alva",
     "description": {
       "firstColor": "Desarrollador web",
-      "second": ", motivado por los retos y el",
-      "thirdColor": "aprendizaje constante",
-      "fourth": "que ofrece el mundo web."
+      "second": ", apasionado por el",
+      "thirdColor": " aprendizaje",
+      "fourth": " constante y la",
+      "fifthColor": " resolución",
+      "sixth": " creativa de problemas."
     },
     "buttons": {
       "linkedin": "LinkedIn",
@@ -28,9 +30,9 @@
   },
   "aboutMe": {
     "title": "Sobre mí",
-    "first": "Hola, soy Anghelo Alva, estudiante de Ing. Informatica y en mi tiempo libre desarrollo aplicaciones web.",
-    "second": "Soy un apasionado de la web, me gusta crear aplicaciones web que ayuden a la gente a resolver sus problemas y hacer su vida más fácil, siempre diseñando la mejor experiencia de usuario y el mejor rendimiento que pueda.",
-    "third": "No tengo experiencia en un trabajo real, pero creo que estoy preparado para empezar a trabajar en una empresa, tengo las habilidades y los conocimientos para empezar a trabajar en una empresa y estoy preparado para aprender más y mejorar mis habilidades.",
+    "first": "Hola! Soy Anghelo Alva, estudiante de Ingeniería Informática y en mis tiempos libres me dedico al desarrollo web. Me apasiona la tecnología y la programación, y disfruto de la oportunidad de aprender algo nuevo cada día.",
+    "second": "Desde mis primeros pasos en el mundo del desarrollo web, la curiosidad por descubrir cómo se creaban los sitios y la libertad de crear prácticamente cualquier cosa que pudiera imaginar me mantuvieron profundamente involucrado.",
+    "third": "Creo firmemente en el valor del aprendizaje continuo y la mejora constante. Estoy convencido de que cada día trae consigo una oportunidad para aprender algo nuevo, y me comprometo a aprovechar al máximo cada experiencia.",
     "contact": "Si quieres ponerte en contacto conmigo, puedes enviarme un correo electrónico a:",
     "mailTooltip": "Copiado!"
   }
