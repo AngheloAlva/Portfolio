@@ -6,7 +6,7 @@ export const projects = [
     challenges: ['The management of the global state linked to the server and database.', 'The integration of Clerk for authentication added to the creation and management of users with the server.'],
     challengesEs: ['El manejo del estado global enlazado el servidor y base de datos.', 'La integracion de Clerk para la autenticacion sumado a la creacion y manejo de de usuarios con el servidor.'],
     image: '/projects/petshop.png',
-    link: 'not found',
+    link: 'https://pet-shop-iota-drab.vercel.app/',
     code: 'https://github.com/AngheloAlva/Pet-shop',
     techs: ['Next.js', 'TailwindCSS', 'TypeScript', 'Zustand', 'Clerk']
   },
@@ -17,7 +17,7 @@ export const projects = [
     challenges: ['Learn to use Prisma as an ORM.', 'Stripe integration for payments.', 'Linked user management with Clerk and the server.'],
     challengesEs: ['Aprender a usar Prisma como ORM.', 'La integracion de Stripe para los pagos.', 'El manejo enlazado del usuario con Clerk y el servidor.'],
     image: '/projects/petshop-server.png',
-    link: 'not found',
+    link: 'https://documenter.getpostman.com/view/28661445/2sA2r7zi8q',
     code: 'https://github.com/AngheloAlva/Pet-shop-server',
     techs: ['Node.js', 'Express', 'TypeScript', 'PostgresSQL', 'Stripe']
   },
