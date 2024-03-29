@@ -1,5 +1,9 @@
 export const skills = [
   {
+    name: 'Astro',
+    icon: '/skills/astro.svg'
+  },
+  {
     name: 'HTML',
     icon: '/skills/html-5.svg'
   },
