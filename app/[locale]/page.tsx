@@ -1,9 +1,7 @@
-/* eslint-disable react/no-unescaped-entities */
-
-import PresentationSection from '../components/page/Hero-section'
-import ProjectsSection from '../components/page/Projects-section'
-import AboutMeSection from '../components/page/About-me-section'
-import SkillsSection from '../components/page/Skills-section'
+import PresentationSection from '../components/home/Hero-section'
+import ProjectsSection from '../components/home/Projects-section'
+import AboutMeSection from '../components/home/About-me-section'
+import SkillsSection from '../components/home/Skills-section'
 import LanguageButton from '../components/ui/Language-button'
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'

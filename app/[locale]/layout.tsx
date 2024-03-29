@@ -1,6 +1,7 @@
-import type { Metadata } from 'next'
-import './../globals.css'
 import { raleway } from '../lib/fonts'
+import type { Metadata } from 'next'
+
+import './../globals.css'
 
 export const metadata: Metadata = {
   title: 'Anghelo Alva | Portfolio',

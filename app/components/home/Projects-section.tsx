@@ -10,7 +10,7 @@ export default function ProjectsSection (
   const t = useTranslations('projects')
 
   return (
-    <section id='projects' className="flex flex-col items-center justify-center gap-10 pt-28 overflow-x-hidden">
+    <section id='projects' className="flex flex-col items-center justify-center gap-10 pt-28 overflow-x-hidden max-w-5x w-full">
       <div className='flex items-center w-full gap-4'>
         <h2 className="text-4xl font-bold w-fit text-nowrap flex items-center gap-3">
           <FaCode /> {t('title')}
