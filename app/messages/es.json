@@ -1,43 +1,43 @@
 {
-  "navbar": {
-    "home": "Home",
-    "aboutMe": "Acerca de mí",
-    "projects": "Proyectos",
-    "skills": "Habilidades"
-  },
-  "presentation": {
-    "title": "Anghelo Alva",
-    "description": {
-      "firstColor": "Desarrollador web",
-      "second": ", apasionado por el",
-      "thirdColor": " aprendizaje",
-      "fourth": " constante y la",
-      "fifthColor": " resolución",
-      "sixth": " creativa de problemas."
+    "navbar": {
+        "home": "Home",
+        "aboutMe": "Acerca de mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades"
     },
-    "buttons": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "resume": "Resumen",
-      "mailTooltip": "Copiado!"
+    "presentation": {
+        "title": "Anghelo Alva",
+        "description": {
+            "firstColor": "Desarrollador web",
+            "second": ", apasionado por el",
+            "thirdColor": " aprendizaje",
+            "fourth": " constante y la",
+            "fifthColor": " resolución",
+            "sixth": " creativa de problemas."
+        },
+        "buttons": {
+            "linkedin": "LinkedIn",
+            "github": "GitHub",
+            "resume": "Resumen",
+            "mailTooltip": "Copiado!"
+        }
+    },
+    "skills": {
+        "title": "Habilidades"
+    },
+    "experience": {
+        "title": "Experiencia",
+        "challenges": "Principales desafíos"
+    },
+    "projects": {
+        "title": "Proyectos"
+    },
+    "aboutMe": {
+        "title": "Sobre mí",
+        "first": "Hola! Soy Anghelo Alva, estudiante de Ingeniería Informática y en mis tiempos libres me dedico al desarrollo web. Me apasiona la tecnología y la programación, y disfruto de la oportunidad de aprender algo nuevo cada día.",
+        "second": "Desde mis primeros pasos en el mundo del desarrollo web, la curiosidad por descubrir cómo se creaban los sitios y la libertad de crear prácticamente cualquier cosa que pudiera imaginar me mantuvieron profundamente involucrado.",
+        "third": "Creo firmemente en el valor del aprendizaje continuo y la mejora constante. Estoy convencido de que cada día trae consigo una oportunidad para aprender algo nuevo, y me comprometo a aprovechar al máximo cada experiencia.",
+        "contact": "Si quieres ponerte en contacto conmigo, puedes enviarme un correo electrónico a:",
+        "mailTooltip": "Copiado!"
     }
-  },
-  "skills": {
-    "title": "Habilidades"
-  },
-  "experience": {
-    "title": "Experiencia",
-    "challenge": "Principales desafíos"
-  },
-  "projects": {
-    "title": "Proyectos"
-  },
-  "aboutMe": {
-    "title": "Sobre mí",
-    "first": "Hola! Soy Anghelo Alva, estudiante de Ingeniería Informática y en mis tiempos libres me dedico al desarrollo web. Me apasiona la tecnología y la programación, y disfruto de la oportunidad de aprender algo nuevo cada día.",
-    "second": "Desde mis primeros pasos en el mundo del desarrollo web, la curiosidad por descubrir cómo se creaban los sitios y la libertad de crear prácticamente cualquier cosa que pudiera imaginar me mantuvieron profundamente involucrado.",
-    "third": "Creo firmemente en el valor del aprendizaje continuo y la mejora constante. Estoy convencido de que cada día trae consigo una oportunidad para aprender algo nuevo, y me comprometo a aprovechar al máximo cada experiencia.",
-    "contact": "Si quieres ponerte en contacto conmigo, puedes enviarme un correo electrónico a:",
-    "mailTooltip": "Copiado!"
-  }
 }
