@@ -5,7 +5,7 @@ export const projects = [
     descriptionEs: 'Ecommerce para comida, acessorios, medicina, etc. de mascotas comunes y exoticas.',
     challenges: ['The management of the global state linked to the server and database.', 'The integration of Clerk for authentication added to the creation and management of users with the server.'],
     challengesEs: ['El manejo del estado global enlazado el servidor y base de datos.', 'La integracion de Clerk para la autenticacion sumado a la creacion y manejo de de usuarios con el servidor.'],
-    image: '/projects/petshop.png',
+    image: '/projects/petshop.webp',
     link: 'https://pet-shop-angheloalva.vercel.app',
     code: 'https://github.com/AngheloAlva/Pet-shop',
     techs: ['Next.js', 'TailwindCSS', 'TypeScript', 'Zustand', 'Clerk']
@@ -16,7 +16,7 @@ export const projects = [
     descriptionEs: 'Servidor creado especificamente para el ecommerce de mascotas. Este maneja todas las rutas y la base de datos.',
     challenges: ['Learn to use Prisma as an ORM.', 'Stripe integration for payments.', 'Linked user management with Clerk and the server.'],
     challengesEs: ['Aprender a usar Prisma como ORM.', 'La integracion de Stripe para los pagos.', 'El manejo enlazado del usuario con Clerk y el servidor.'],
-    image: '/projects/petshop-server.png',
+    image: '/projects/petshop-server.webp',
     link: 'https://documenter.getpostman.com/view/28661445/2sA2r7zi8q',
     code: 'https://github.com/AngheloAlva/Pet-shop-server',
     techs: ['Node.js', 'Express', 'TypeScript', 'PostgresSQL', 'Stripe']
@@ -27,7 +27,7 @@ export const projects = [
     descriptionEs: 'Sistema escolar completeo, cuenta con un Intranet para la comunicacion entre los maestros y los estudiantes, un sistema de notas, tareas y asistencia, y un sistema de administracion para los directivos.',
     challenges: ['Correctly create note, task and attendance systems.', 'Creation of the Intranet.', 'Management of user authentication and authorization.'],
     challengesEs: ['Crear correctamente los sistemas de notas, tareas y asistencias.', 'La creacion del Intranet.', 'El manejo de la autenticacion y autorizacion de los usuarios.'],
-    image: '/projects/scholanet.png',
+    image: '/projects/scholanet.webp',
     link: 'not found',
     code: 'https://github.com/AngheloAlva/ScholaNet',
     techs: ['Next.js', 'TailwindCSS', 'TypeScript']
@@ -38,7 +38,7 @@ export const projects = [
     descriptionEs: 'Servidor creado especificamente para el sistema escolar. Este maneja todas las rutas y la base de datos.',
     challenges: ['Implement an authentication and authorization system for users.', 'The creation of note, task and attendance systems.'],
     challengesEs: ['Implementar un sistema de autenticacion y autorizacion para los usuarios.', 'La creacion de los sistemas de notas, tareas y asistencias.'],
-    image: '/projects/scholanet-server.png',
+    image: '/projects/scholanet-server.webp',
     link: 'not found',
     code: 'https://github.com/AngheloAlva/ScholaNet-Express',
     techs: ['Node.js', 'Express', 'TypeScript', 'MongoDB']

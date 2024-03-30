@@ -25,6 +25,19 @@
   "skills": {
     "title": "Habilidades"
   },
+  "experience": {
+    "title": "Freelancer",
+    "first": {
+      "title": "IngSimple",
+      "description": "Desarrollo de la página web de la empresa, utilizando Astro con islas y componentes de React. Agregando internacionalización y un formulario de contacto funcional logrado con Resend y Cloudflare Workers.",
+      "challenges": ["Aprender como funciona Cloudflare Workers y Pages", "Desarrollo de una interfaz de usuario atractiva y funcional", "Optimización de la página para una carga rápida y eficiente"],
+      "date": "2024",
+      "techs": ["Astro", "React", "Tailwind CSS", "TypeScript", "Cloudflare Workers"],
+      "image": "/experience/ingsimple.webp",
+      "imageAlt": "Pagina web de IngSimple",
+      "url": "ingsimple.cl"
+    }
+  },
   "projects": {
     "title": "Proyectos"
   },

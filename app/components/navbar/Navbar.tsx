@@ -10,6 +10,7 @@ export default function Navbar (
   const items = [
     { id: 'home', label: locale === 'en' ? 'Home' : 'Inicio' },
     { id: 'skills', label: locale === 'en' ? 'Skills' : 'Habilidades' },
+    { id: 'experience', label: locale === 'en' ? 'Experience' : 'Experiencia' },
     { id: 'projects', label: locale === 'en' ? 'Projects' : 'Proyectos' },
     { id: 'aboutMe', label: locale === 'en' ? 'About me' : 'Sobre mí' }
   ]
