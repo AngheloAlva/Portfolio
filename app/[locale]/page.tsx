@@ -17,7 +17,7 @@ export default function Home (
       <main className="flex flex-col items-center px-5 sm:px-14 md:px-24">
         <PresentationSection />
         <SkillsSection />
-        <ExperienceSection />
+        <ExperienceSection locale={params.locale} />
         <ProjectsSection locale={params.locale} />
         <AboutMeSection />
         <Footer />
