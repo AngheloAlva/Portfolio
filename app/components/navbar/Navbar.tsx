@@ -12,7 +12,7 @@ export default function Navbar (
   const items = [
     { id: 'home', label: locale === 'en' ? 'Home' : 'Inicio', icon: <FaHome /> },
     { id: 'skills', label: locale === 'en' ? 'Skills' : 'Habilidades', icon: <FaBrain /> },
-    { id: 'experience', label: locale === 'en' ? 'Experience' : 'Experiencia', icon: <FaSuitcase />  },
+    { id: 'experience', label: locale === 'en' ? 'Experience' : 'Experiencia', icon: <FaSuitcase /> },
     { id: 'projects', label: locale === 'en' ? 'Projects' : 'Proyectos', icon: <FaCode /> },
     { id: 'aboutMe', label: locale === 'en' ? 'About me' : 'Sobre mí', icon: <FaUser /> }
   ]
