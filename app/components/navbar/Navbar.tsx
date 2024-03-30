@@ -3,15 +3,18 @@
 
 import { useCallback, useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
+import { FaHome } from 'react-icons/fa'
+import { FaBrain, FaCode, FaSuitcase, FaUser } from 'react-icons/fa6'
 
 export default function Navbar (
   { locale }: { locale: string }
 ): React.ReactElement {
   const items = [
-    { id: 'home', label: locale === 'en' ? 'Home' : 'Inicio' },
-    { id: 'skills', label: locale === 'en' ? 'Skills' : 'Habilidades' },
-    { id: 'projects', label: locale === 'en' ? 'Projects' : 'Proyectos' },
-    { id: 'aboutMe', label: locale === 'en' ? 'About me' : 'Sobre mí' }
+    { id: 'home', label: locale === 'en' ? 'Home' : 'Inicio', icon: <FaHome /> },
+    { id: 'skills', label: locale === 'en' ? 'Skills' : 'Habilidades', icon: <FaBrain /> },
+    { id: 'experience', label: locale === 'en' ? 'Experience' : 'Experiencia', icon: <FaSuitcase />  },
+    { id: 'projects', label: locale === 'en' ? 'Projects' : 'Proyectos', icon: <FaCode /> },
+    { id: 'aboutMe', label: locale === 'en' ? 'About me' : 'Sobre mí', icon: <FaUser /> }
   ]
 
   const [selected, setSelected] = useState<string>('home')
@@ -69,8 +72,8 @@ export default function Navbar (
   }, [isInTransition, items])
 
   return (
-    <nav className="border border-white/10 py-1 rounded-lg sm:rounded-full mb-12 fixed px-2 sm:px-8 overflow-hidden top-7 md:top-10 z-50 backdrop-blur-xl left-1/2 transform -translate-x-1/2">
-      <ul className="flex sm:gap-2 relative justify-start w-full z-[100] rounded-lg">
+    <nav className="border border-white/10 py-1 rounded-lg w-full sm:rounded-full mb-12 fixed px-2 sm:px-8 overflow-hidden top-7 md:top-10 z-50 backdrop-blur-xl left-1/2 transform -translate-x-1/2 sm:max-w-fit">
+      <ul className="flex sm:gap-2 relative justify-between w-full z-[100] rounded-lg flex-wrap items-center sm:flex-nowrap">
         {items.map((item) => {
           const isActive = selected === item.id
 
@@ -87,9 +90,10 @@ export default function Navbar (
                 setSelected(lastSelected)
               }}
               data-active={isActive}
-              className="text-sm sm:text-base cursor-pointer px-2 sm:px-4 text-nowrap py-3 rounded-lg lg:text-base relative no-underline duration-300 ease-in font-bold tracking-wider select-none"
+              className="cursor-pointer px-2 sm:px-4 text-nowrap py-3 rounded-lg relative no-underline duration-300 ease-in font-bold tracking-wider select-none flex-1 items-center justify-center flex"
             >
-              <span>{item.label}</span>
+              <span className='sm:hidden text-lg'>{item.icon}</span>
+              <span className='hidden sm:block'>{item.label}</span>
 
               {(isActive) && (
                 <motion.div

@@ -25,6 +25,10 @@
   "skills": {
     "title": "Skills"
   },
+  "experience": {
+    "title": "Experience",
+    "challenges": "Main challenges:"
+  },
   "projects": {
     "title": "Projects"
   },
