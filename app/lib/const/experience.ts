@@ -13,7 +13,7 @@ export const experience = [
       'Desarrollo de una interfaz de usuario atractiva y funcional',
       'Optimización de la página para una carga rápida y eficiente'
     ],
-    date: '2024 - Frelance',
+    date: '2024 - Freelance',
     techs: ['Astro', 'React', 'Tailwind CSS', 'TypeScript', 'Cloudflare Workers'],
     image: '/experience/ingsimple.webp',
     imageAlt: 'IngSimple website',

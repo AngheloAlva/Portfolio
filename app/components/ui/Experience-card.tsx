@@ -26,7 +26,7 @@ export default function ExperienceCard ({
       <div className='max-w-xl lg:max-w-full'>
         <div className='w-full flex items-center justify-between'>
           <div>
-            <small className='text-sm text-white/50'>{experience.date}</small>
+            <small className='text-sm text-white/80'>{experience.date}</small>
             <h3 className="text-3xl font-bold text-start text-pink flex items-center justify-center">
               {experience.title}
             </h3>
