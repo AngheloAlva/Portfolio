@@ -20,27 +20,27 @@ export const projects = [
     link: 'https://documenter.getpostman.com/view/28661445/2sA2r7zi8q',
     code: 'https://github.com/AngheloAlva/Pet-shop-server',
     techs: ['Node.js', 'Express', 'TypeScript', 'PostgresSQL', 'Stripe']
-  },
-  {
-    title: 'ScholaNet',
-    description: 'Complete school system, it has an Intranet for communication between teachers and students, a note, homework and attendance system, and an administration system for managers.',
-    descriptionEs: 'Sistema escolar completeo, cuenta con un Intranet para la comunicacion entre los maestros y los estudiantes, un sistema de notas, tareas y asistencia, y un sistema de administracion para los directivos.',
-    challenges: ['Correctly create note, task and attendance systems.', 'Creation of the Intranet.', 'Management of user authentication and authorization.'],
-    challengesEs: ['Crear correctamente los sistemas de notas, tareas y asistencias.', 'La creacion del Intranet.', 'El manejo de la autenticacion y autorizacion de los usuarios.'],
-    image: '/projects/scholanet.webp',
-    link: 'not found',
-    code: 'https://github.com/AngheloAlva/ScholaNet',
-    techs: ['Next.js', 'TailwindCSS', 'TypeScript']
-  },
-  {
-    title: 'ScholaNet Server',
-    description: 'Server created specifically for the school system. This handles all the routes and the database.',
-    descriptionEs: 'Servidor creado especificamente para el sistema escolar. Este maneja todas las rutas y la base de datos.',
-    challenges: ['Implement an authentication and authorization system for users.', 'The creation of note, task and attendance systems.'],
-    challengesEs: ['Implementar un sistema de autenticacion y autorizacion para los usuarios.', 'La creacion de los sistemas de notas, tareas y asistencias.'],
-    image: '/projects/scholanet-server.webp',
-    link: 'not found',
-    code: 'https://github.com/AngheloAlva/ScholaNet-Express',
-    techs: ['Node.js', 'Express', 'TypeScript', 'MongoDB']
   }
+  // {
+  //   title: 'ScholaNet',
+  //   description: 'Complete school system, it has an Intranet for communication between teachers and students, a note, homework and attendance system, and an administration system for managers.',
+  //   descriptionEs: 'Sistema escolar completeo, cuenta con un Intranet para la comunicacion entre los maestros y los estudiantes, un sistema de notas, tareas y asistencia, y un sistema de administracion para los directivos.',
+  //   challenges: ['Correctly create note, task and attendance systems.', 'Creation of the Intranet.', 'Management of user authentication and authorization.'],
+  //   challengesEs: ['Crear correctamente los sistemas de notas, tareas y asistencias.', 'La creacion del Intranet.', 'El manejo de la autenticacion y autorizacion de los usuarios.'],
+  //   image: '/projects/scholanet.webp',
+  //   link: 'not found',
+  //   code: 'https://github.com/AngheloAlva/ScholaNet',
+  //   techs: ['Next.js', 'TailwindCSS', 'TypeScript']
+  // },
+  // {
+  //   title: 'ScholaNet Server',
+  //   description: 'Server created specifically for the school system. This handles all the routes and the database.',
+  //   descriptionEs: 'Servidor creado especificamente para el sistema escolar. Este maneja todas las rutas y la base de datos.',
+  //   challenges: ['Implement an authentication and authorization system for users.', 'The creation of note, task and attendance systems.'],
+  //   challengesEs: ['Implementar un sistema de autenticacion y autorizacion para los usuarios.', 'La creacion de los sistemas de notas, tareas y asistencias.'],
+  //   image: '/projects/scholanet-server.webp',
+  //   link: 'not found',
+  //   code: 'https://github.com/AngheloAlva/ScholaNet-Express',
+  //   techs: ['Node.js', 'Express', 'TypeScript', 'MongoDB']
+  // }
 ]
