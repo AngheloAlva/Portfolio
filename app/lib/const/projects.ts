@@ -6,7 +6,7 @@ export const projects = [
     challenges: ['The management of the global state linked to the server and database.', 'The integration of Clerk for authentication added to the creation and management of users with the server.'],
     challengesEs: ['El manejo del estado global enlazado el servidor y base de datos.', 'La integracion de Clerk para la autenticacion sumado a la creacion y manejo de de usuarios con el servidor.'],
     image: '/projects/petshop.webp',
-    link: 'https://pet-shop-angheloalva.vercel.app',
+    link: 'https://pet-shop-indol.vercel.app/',
     code: 'https://github.com/AngheloAlva/Pet-shop',
     techs: ['Next.js', 'TailwindCSS', 'TypeScript', 'Zustand', 'Clerk']
   },
